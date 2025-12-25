@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>TruthScan | AI Scam Detection</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <nav class="navbar">
+    <div class="logo">TruthScan</div>
+    <div class="nav-links">
+      <a href="#about">About</a>
+      <a href="#scan">Scan</a>
+      <a href="#tech">Tech</a>
+    </div>
+  </nav>
+
+  <section class="hero">
+    <h1>Detect Scams. Verify Truth.</h1>
+    <p>AI-powered cyber safety platform to identify fake offers and online fraud.</p>
+    <a href="#scan" class="btn">Start Scanning</a>
+  </section>
+
+  <section class="card" id="about">
+    <h2>About TruthScan</h2>
+    <p>
+      TruthScan is an AI-based cyber safety platform that helps users detect fake offers,
+      scam messages, and online fraud using Google Gemini technology.
+    </p>
+  </section>
+
+  <section class="card" id="scan">
+    <h2>Scan a Message</h2>
+    <textarea id="inputText" placeholder="Paste suspicious message here..."></textarea>
+    <button onclick="scanMessage()" class="btn">Scan with AI</button>
+    <div id="result" class="result"></div>
+  </section>
+
+  <section class="card" id="tech">
+    <h2>Technology Used</h2>
+    <ul>
+      <li>HTML, CSS, JavaScript</li>
+      <li>AI Analysis (Google Gemini – Concept)</li>
+      <li>Cyber Security</li>
+    </ul>
+  </section>
+
+  <footer>
+    <p>Team TruthScan | GDGOC PIEMR TechSprint</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
