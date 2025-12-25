@@ -34,3 +34,18 @@ function scanMessage() {
     result.style.color = "#64ffda";
   }
 }
+
+function scanImage() {
+  const imageInput = document.getElementById("imageInput");
+  const imageResult = document.getElementById("imageResult");
+
+  if (imageInput.files.length === 0) {
+    imageResult.innerHTML = "❌ Please upload an image or screenshot.";
+    imageResult.style.color = "#ff6b6b";
+    return;
+  }
+
+  imageResult.innerHTML =
+    "🖼️ Image received. OCR-based scam analysis will be implemented in future versions.";
+  imageResult.style.color = "#64ffda";
+}

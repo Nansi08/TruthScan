@@ -34,20 +34,31 @@
     <h2>About TruthScan</h2>
     <p>
       TruthScan is an AI-based cyber safety initiative designed to help users
-      verify suspicious messages and offers. It focuses on protecting users
-      from online scams using intelligent analysis and a privacy-first approach.
+      identify scam messages, fake offers, and fraudulent content.
+      The platform focuses on privacy-first analysis and fast verification.
     </p>
   </section>
 
   <!-- SCAN -->
   <section class="card" id="scan">
-    <h2>Scan a Message</h2>
+    <h2>Scan for Scams</h2>
+
+    <!-- TEXT SCAN -->
+    <h3>Scan Text Message</h3>
     <textarea
       id="inputText"
       placeholder="Paste suspicious message, offer, or text here..."
     ></textarea>
-    <button onclick="scanMessage()" class="btn">Scan with AI</button>
+    <button onclick="scanMessage()" class="btn">Scan Text</button>
     <div id="result" class="result"></div>
+
+    <hr class="divider">
+
+    <!-- IMAGE SCAN -->
+    <h3>Scan Image / Screenshot</h3>
+    <input type="file" id="imageInput" accept="image/*" />
+    <button onclick="scanImage()" class="btn">Scan Image</button>
+    <div id="imageResult" class="result"></div>
   </section>
 
   <!-- TECH -->
