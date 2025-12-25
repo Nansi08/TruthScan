@@ -1,13 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
   <title>TruthScan | AI Scam Detection</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
 
+  <!-- NAVBAR -->
   <nav class="navbar">
     <div class="logo">TruthScan</div>
     <div class="nav-links">
@@ -17,36 +19,48 @@
     </div>
   </nav>
 
+  <!-- HERO -->
   <section class="hero">
     <h1>Detect Scams. Verify Truth.</h1>
-    <p>AI-powered cyber safety platform to identify fake offers and online fraud.</p>
+    <p>
+      An AI-powered cyber safety platform to identify fake offers,
+      scam messages, and online fraud.
+    </p>
     <a href="#scan" class="btn">Start Scanning</a>
   </section>
 
+  <!-- ABOUT -->
   <section class="card" id="about">
     <h2>About TruthScan</h2>
     <p>
-      TruthScan is an AI-based cyber safety platform that helps users detect fake offers,
-      scam messages, and online fraud using Google Gemini technology.
+      TruthScan is an AI-based cyber safety initiative designed to help users
+      verify suspicious messages and offers. It focuses on protecting users
+      from online scams using intelligent analysis and a privacy-first approach.
     </p>
   </section>
 
+  <!-- SCAN -->
   <section class="card" id="scan">
     <h2>Scan a Message</h2>
-    <textarea id="inputText" placeholder="Paste suspicious message here..."></textarea>
+    <textarea
+      id="inputText"
+      placeholder="Paste suspicious message, offer, or text here..."
+    ></textarea>
     <button onclick="scanMessage()" class="btn">Scan with AI</button>
     <div id="result" class="result"></div>
   </section>
 
+  <!-- TECH -->
   <section class="card" id="tech">
-    <h2>Technology Used</h2>
+    <h2>Technology Stack</h2>
     <ul>
       <li>HTML, CSS, JavaScript</li>
       <li>AI Analysis (Google Gemini – Concept)</li>
-      <li>Cyber Security</li>
+      <li>Cyber Security Principles</li>
     </ul>
   </section>
 
+  <!-- FOOTER -->
   <footer>
     <p>Team TruthScan | GDGOC PIEMR TechSprint</p>
   </footer>
